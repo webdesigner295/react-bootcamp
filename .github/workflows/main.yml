@@ -40,8 +40,8 @@ jobs:
         run: yarn build
       
       
-      - name: installing surge
-        run : npm istall -g surge
+      - name : installing surge
+        run : npm istall --global surge
          
          
       - name: deploying using surge
